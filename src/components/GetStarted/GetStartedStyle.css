@@ -28,7 +28,7 @@
     color: white;
     background-color: #d867d6;
 }
-@media (max-width: 780px) {
+@media (max-width: 810px) {
     .get-started{
         margin: auto;
         margin-bottom: 50px;

@@ -36,7 +36,7 @@ footer label {
 footer span{
     margin-top: 10px;
 }
-@media (max-width: 780px) {
+@media (max-width: 810px) {
     footer{
         width: 100%;
         margin: auto;
@@ -65,6 +65,9 @@ footer span{
         margin-top: 10px;
         list-style: none;
 
+    }
+    .items ,.social{
+        margin-right: 10px;
     }
     .social li img{
         width: 15px;

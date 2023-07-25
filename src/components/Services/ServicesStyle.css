@@ -2,7 +2,7 @@
 .services .details{
     margin: 100px 300px;
 }
-@media (max-width: 780px) {
+@media (max-width: 810px) {
     .services .details{
         margin: 50px 30px;
     }

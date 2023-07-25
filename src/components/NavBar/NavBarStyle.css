@@ -34,7 +34,7 @@ nav a{
     color: black;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 810px) {
     nav {
         height: 40px;
         padding-top: 5px;

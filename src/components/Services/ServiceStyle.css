@@ -29,13 +29,13 @@
     float: left;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 810px) {
     .service-section {
         margin: 50px 25px;
 
     }
     .service {
-        gap: 5px;
+        display: block;
     }
     .right{
         flex-direction: row-reverse;
