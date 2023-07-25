@@ -1,0 +1,48 @@
+.get-started{
+    margin: 50px;
+}
+.get-started .box{
+    background-color: #fdc8fd;
+    width: 800px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 50px;
+    font-size: 18px;
+}
+.get-started p{
+    text-align: left;
+}
+.get-started span{
+    color: #ba00a1;
+}
+.get-started button{
+    margin: 15px;
+    border-radius:8px ;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: #d867d6;
+}
+@media (max-width: 780px) {
+    .get-started{
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .get-started .box{
+        width: 350px;
+        height: 160px;
+        display: block;
+        border-radius: 5px;
+        padding: 15px;
+        font-size: 14px;
+    }
+    .get-started button{
+        border-radius:5px ;
+        text-align: center;
+    }
+}

@@ -1,0 +1,9 @@
+
+.services .details{
+    margin: 100px 300px;
+}
+@media (max-width: 780px) {
+    .services .details{
+        margin: 50px 30px;
+    }
+}

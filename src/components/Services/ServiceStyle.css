@@ -1,0 +1,52 @@
+.service-section {
+    margin: 100px 200px;
+
+}
+
+.service {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.right{
+    flex-direction: row-reverse;
+}
+
+
+.service .image img {
+    width: 400px;
+}
+
+.service .image img .right {
+    position: absolute;
+    float: right;
+}
+
+.service .image img .left {
+    position: absolute;
+    float: left;
+}
+
+@media (max-width: 780px) {
+    .service-section {
+        margin: 50px 25px;
+
+    }
+    .service {
+        gap: 5px;
+    }
+    .right{
+        flex-direction: row-reverse;
+    }
+
+
+    .service .image img {
+        width: 200px;
+        margin-top: 50px;
+    }
+    .service p{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,27 @@
+.hero{
+    padding-top: 150px;
+    background-color: #ffebff;
+    height: 500px;
+}
+.hero h1 ,.hero h2 ,.hero p{
+    margin: 15px;
+}
+.hero h1,.hero h2{
+    font-weight: bold;
+}
+.hero h2{
+    margin: 15px;
+    color:#d867d6;
+}
+.hero p{
+    color: darkgrey;
+}
+.hero button{
+    margin: 25px;
+    border-radius:5px ;
+    border: 0px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #d867d6;
+}
