@@ -2,7 +2,7 @@
     margin: 50px;
 }
 .get-started .box{
-    background-color: #fdc8fd;
+    background-color: #D7BBF5;
     width: 800px;
     height: 120px;
     display: flex;
@@ -18,15 +18,17 @@
     text-align: left;
 }
 .get-started span{
-    color: #ba00a1;
+    color: #6528F7;
 }
 .get-started button{
-    margin: 15px;
-    border-radius:8px ;
     padding: 5px;
+    margin: 25px;
+    border-radius:5px ;
+    border: 0px;
     text-align: center;
     color: white;
-    background-color: #d867d6;
+    background-color: #6528F7;
+    font-size: 16px;
 }
 @media (max-width: 810px) {
     .get-started{

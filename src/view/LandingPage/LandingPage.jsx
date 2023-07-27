@@ -1,5 +1,5 @@
 import NavBar from "../../components/NavBar/NavBar";
-import logo from './../../assets/images/logo/logo1.png'
+import logo from './../../assets/images/logo/logo.webp'
 import Hero from "../../components/Hero/Hero";
 import Services from "../../components/Services/Services";
 import GetStarted from "../../components/GetStarted/GetStarted";

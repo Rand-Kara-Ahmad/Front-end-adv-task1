@@ -1,6 +1,6 @@
 .hero{
     padding-top: 150px;
-    background-color: #ffebff;
+    background-color: #EDE4FF;
     height: 500px;
 }
 .hero h1 ,.hero h2 ,.hero p{
@@ -11,7 +11,7 @@
 }
 .hero h2{
     margin: 15px;
-    color:#d867d6;
+    color:#6528F7;
 }
 .hero p{
     color: darkgrey;
@@ -23,5 +23,5 @@
     padding: 10px;
     text-align: center;
     color: white;
-    background-color: #d867d6;
+    background-color: #6528F7;
 }

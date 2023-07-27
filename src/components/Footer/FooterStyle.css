@@ -1,12 +1,17 @@
+*{
+    padding: 0;
+}
 footer{
-    background-color: #ffebff;
+    background-color: #EDE4FF;
     height:250px;
     padding: 50px;
+    align-items: center;
+    text-align: center;
 }
 
 footer .logo {
     margin:auto;
-    width: 35px;
+    width: 50px;
 }
 footer label {
     margin:10px;
@@ -15,23 +20,24 @@ footer label {
 .social {
     display: flex;
     justify-content: center;
-    gap: 1px;
-    margin: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+    margin: 10px 5px;
+    padding-left:0
 }
 .items {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin: 5px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
     margin-top: 10px;
     list-style: none;
-
+    padding-left: 0;
 }
+
 .social li img{
     width: 15px;
+
 }
 footer span{
     margin-top: 10px;
@@ -44,15 +50,13 @@ footer span{
 
     footer .logo {
         margin:auto;
-        width: 25px;
+        width: 35px;
     }
     footer label {
-        margin:10px;
+        margin: 10px 10px 10px 0;
         font-weight: bold;
     }
     .social {
-        gap: 1px;
-        margin: 5px;
         margin-top: 10px;
         margin-bottom: 10px;
 
@@ -61,13 +65,10 @@ footer span{
         display: flex;
         justify-content: center;
         gap: 15px;
-        margin: 5px;
+        margin: auto;
         margin-top: 10px;
         list-style: none;
 
-    }
-    .items ,.social{
-        margin-right: 10px;
     }
     .social li img{
         width: 15px;
